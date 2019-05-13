@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="programming.kg.myfriendchemistry.School2"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="화학마당"
+        android:textColor="#FFBCE889"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/Topic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="35dp"
+        android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/Body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:freezesText="true"
+            android:gravity="top"
+            android:inputType="none"
+            android:minLines="5"
+            android:scrollbars="vertical"
+            android:text="text"
+            android:textSize="30dp"/>
+    </ScrollView>
+
+
+</android.widget.LinearLayout>

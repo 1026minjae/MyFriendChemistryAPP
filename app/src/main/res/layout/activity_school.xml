@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="programming.kg.myfriendchemistry.School"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="화학마당"
+        android:layout_gravity="center"
+        android:textColor="#FFBCE889"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/S1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sb"
+                android:text="화학에 대해서 알아보자!"
+                android:tag="1"/>
+
+            <Button
+                android:id="@+id/S2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sb"
+                android:text="원자에 대해서 알아보자!"
+                android:tag="2"/>
+
+            <Button
+                android:id="@+id/S3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sb"
+                android:text="이온에 대해서 알아보자!"
+                android:tag="3"/>
+
+            <Button
+                android:id="@+id/S4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sb"
+                android:text="원소를 구별하는 방법에 대해서 알아보자!"
+                android:tag="4"/>
+
+            <Button
+                android:id="@+id/S5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sb"
+                android:text="분자에 대해서 알아보자!"
+                android:tag="5"/>
+
+            <Button
+                android:id="@+id/S6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sb"
+                android:text="물질의 상태에 대해서 알아보자!"
+                android:tag="6"/>
+
+            <Button
+                android:id="@+id/S7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sb"
+                android:text="녹는점과 어는점에 대해서 알아보자!"
+                android:tag="7"/>
+
+            <Button
+                android:id="@+id/S8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sb"
+                android:text="끓는점에 대해서 알아보자!"
+                android:tag="8"/>
+
+            <Button
+                android:id="@+id/S9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sb"
+                android:text="밀도에 대해서 알아보자!"
+                android:tag="9"/>
+
+            <Button
+                android:id="@+id/S10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sb"
+                android:text="용해도에 대해서 알아보자!"
+                android:tag="10"/>
+
+            <Button
+                android:id="@+id/S11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sb"
+                android:text="화학반응에 대해서 알아보자!"
+                android:tag="11"/>
+
+            <Button
+                android:id="@+id/S12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sb"
+                android:text="산에 대해서 알아보자!"
+                android:tag="12"/>
+
+            <Button
+                android:id="@+id/S13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sb"
+                android:text="염기에 대해서 알아보자!"
+                android:tag="13"/>
+
+            <Button
+                android:id="@+id/S14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sb"
+                android:text="ph에 대해서 알아보자!"
+                android:tag="14"/>
+
+            <Button
+                android:id="@+id/S15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sb"
+                android:text="원소 주기율표에 대해서 알아보자!"
+                android:tag="15"/>
+
+            <Button
+                android:id="@+id/S16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sb"
+                android:text="동위원소에 대해서 알아보자!"
+                android:tag="16"/>
+
+            <Button
+                android:id="@+id/S17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sb"
+                android:text="오비탈에 대해서 알아보자!"
+                android:tag="17"/>
+        </LinearLayout>
+    </ScrollView>
+</android.widget.LinearLayout>

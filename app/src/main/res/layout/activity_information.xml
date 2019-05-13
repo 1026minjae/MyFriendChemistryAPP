@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="programming.kg.myfriendchemistry.Information"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Title"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="도움말"
+        android:textAlignment="center"
+        android:background="#FFA7FFE3"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="내 친구 화학이!"
+                    android:textSize="30dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="내 친구 화학이는 화학을 배우고싶은 분들을 위한 '기초화학교육용 프로그램'입니다."
+                    android:textSize="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#FF94F5FF">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="원소주기율표"
+                    android:textSize="30dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="원소주기율표는 총 118가지의 원소들에 대해서 여러가지를 알려주는 곳입니다. 버튼들을 누르면 각 원소들에 대한 설명이 나오고, 원자량, 녹는점, 끓는점등의 성질들도 알 수 있습니다."
+                    android:textSize="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#FFBCE889">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="화학마당"
+                    android:textSize="30dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="화학마당에서는 화학에 대한 지식을 얻을 수 있는 곳입니다. 화학이 무엇인지 설명하는 것부터 시작합니다. 다양한 주제들로 쓰여진 글들을 읽으면서 화학을 열심히 공부해보세요!"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#FFF3BFBF">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="기초화학지식평가"
+                    android:textSize="30dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="기초화학지식평가에서는 자신의 화학적인 지식을 시험해볼 수 있습니다. 다만 원소주기율표와 화학마당을 전부 다 꼼꼼히 읽어본 다음에 보는 것을 추천합니다. 범위가 전체거든요."
+                    android:textSize="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#FFF568C8">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="오답노트"
+                    android:textSize="30dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="오답노트에서는 기초화학지식평가에서 틀렸던 문제들을 다시 한번 풀어볼 수 있습니다. 오답노트에서 푼 문제를 다시 한번 틀렸다고 해서 좌절하지마세요! 다시 풀 수 있습니다."
+                    android:textSize="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#FFDDDDDD">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="의사소통"
+                    android:textSize="30dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="의사소통에서는 제작자에게 메일을 보내서 건의사항을 보낼 수 있습니다. 기초화학지식평가 문제를 내서 보낼 수도 있고, 원소주기율표나 화학마당에 있는 글에 잘못된 점이 있다는 것을 알려줄 수도 있습니다. 프로그램에 문제가 있으면 제작자에게 어서 고쳐달라고 할 수도 있습니다! 많은 이용 바랍니다."
+                    android:textSize="20dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.widget.LinearLayout>

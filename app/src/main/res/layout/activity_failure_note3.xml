@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="programming.kg.myfriendchemistry.FailureNote3"
+    android:background="#FFF568C8"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="오답노트"
+        android:textColor="#ffffff"
+        android:textSize="25dp"/>
+
+    <LinearLayout
+        android:id="@+id/score1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="모범답안"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/correctans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:background="#ffffff"
+            android:minLines="6"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="사용자 답"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/userans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:background="#ffffff"
+            android:minLines="6"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/correct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="정답"
+                android:onClick="Correct_Click"/>
+
+            <Button
+                android:id="@+id/wrong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="오답"
+                android:onClick="Wrong_Click"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/score2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="성적"
+            android:textSize="50dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="객관식"
+            android:textSize="25dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/mcscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="객관식"
+            android:textSize="25dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="주관식"
+            android:textSize="25dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/sqscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="주관식"
+            android:textSize="25dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="총점"
+            android:textSize="40dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/finalscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="총점"
+            android:textSize="35dp"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/test_End"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="나가기"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:onClick="End_Test"/>
+
+    </LinearLayout>
+
+</android.widget.LinearLayout>
