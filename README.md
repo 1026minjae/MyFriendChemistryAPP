@@ -1,0 +1,1 @@
+기초 화학 학습용 프로그램. 원소 주기율표, 각 원소에 대한 설명, 기초적인 화학 지식을 다룬 글, 기초 화학 퀴즈 및 오답노트 기능 등을 제공 | This program is developed for basic chemistry education. Element table including short explanations about each element, Short articles about basic chemistry knowledge, Basic chemistry quiz and wrong answer note for this quiz, etc.
