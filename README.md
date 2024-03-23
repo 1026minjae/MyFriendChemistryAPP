@@ -1,1 +1,2 @@
-기초 화학 학습용 프로그램. 원소 주기율표, 각 원소에 대한 설명, 기초적인 화학 지식을 다룬 글, 기초 화학 퀴즈 및 오답노트 기능 등을 제공 | This program is developed for basic chemistry education. Element table including short explanations about each element, Short articles about basic chemistry knowledge, Basic chemistry quiz and wrong answer note for this quiz, etc.
+2017년 북일 멀티미디어 대회 우승작 (1st award in Software exhibition of 2017 Bugil Academy Multimedia Competition)   
+2017년 한국정보올림피아드 공모부문 출품작 (Submission for Software exhibition of 2017 Korea Olympiad in Informatics)
